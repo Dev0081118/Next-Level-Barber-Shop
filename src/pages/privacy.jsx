@@ -213,7 +213,7 @@ const Privacy = () => {
 
               <p>
                 <span className="text-neutral-400">Location:</span>{" "}
-                Perth, WA, Australia
+                56 William St, Perth WA 6000, Australia
               </p>
             </div>
           </PrivacySection>

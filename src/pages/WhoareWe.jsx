@@ -248,9 +248,11 @@ const WhoareWe = () => {
               </p>
 
               <p className="mt-8 font-helvetica text-xs leading-5 text-white/40">
-                Perth
+                56 William St
                 <br />
-                Western Australia
+                Perth WA 6000
+                <br />
+                Australia
               </p>
 
             </div>

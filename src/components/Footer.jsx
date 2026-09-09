@@ -87,9 +87,9 @@ const Footer = () => {
             <div className="space-y-5 text-sm text-neutral-300">
 
               <p>
-                188 Adelaide Terrace
+                56 William St
                 <br />
-                Perth WA 6004, Australia
+                Perth WA 6000, Australia
               </p>
 
               <a

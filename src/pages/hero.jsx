@@ -36,7 +36,7 @@ const Hero = () => {
             <span className="h-px w-12 bg-white/60" />
 
             <p className="font-helvetica text-xs font-medium uppercase tracking-[0.3em] text-white/80">
-              Perth / William Street
+              56 William St / Perth WA 6000
             </p>
 
           </div>
