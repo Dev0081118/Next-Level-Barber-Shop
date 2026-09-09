@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="md:col-span-6">
 
             <p className="mb-8 text-xs uppercase tracking-[0.3em] text-neutral-500">
-              Hammoudi Barber Shop
+              Next Level Barbershop
             </p>
 
             <h2 className="max-w-[700px] text-5xl font-light leading-[0.95] tracking-[-0.05em] md:text-7xl lg:text-8xl">
@@ -39,35 +39,35 @@ const Footer = () => {
 
               <a
                 href="#home"
-                className="w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
+                className="w-fit transition-colors duration-300 hover:text-[#c0c0c0] active:text-[#c0c0c0]"
               >
                 Home
               </a>
 
               <a
                 href="#services"
-                className="w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
+                className="w-fit transition-colors duration-300 hover:text-[#c0c0c0] active:text-[#c0c0c0]"
               >
                 Services
               </a>
 
               <a
                 href="#packages"
-                className="w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
+                className="w-fit transition-colors duration-300 hover:text-[#c0c0c0] active:text-[#c0c0c0]"
               >
                 Packages
               </a>
 
               <a
                 href="#whoarewe"
-                className="w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
+                className="w-fit transition-colors duration-300 hover:text-[#c0c0c0] active:text-[#c0c0c0]"
               >
                 About
               </a>
 
               <a
                 href="#photo-gallery"
-                className="w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
+                className="w-fit transition-colors duration-300 hover:text-[#c0c0c0] active:text-[#c0c0c0]"
               >
                 Photo Gallery
               </a>
@@ -93,17 +93,17 @@ const Footer = () => {
               </p>
 
               <a
-                href="tel:+61425780603"
-                className="block w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
+                href="tel:+61415300889"
+                className="block w-fit transition-colors duration-300 hover:text-[#c0c0c0] active:text-[#c0c0c0]"
               >
-                +61 416 917 772
+                +61 415 300 889
               </a>
 
               <a
-                href="mailto:hello@hammoudibarber.com"
-                className="block w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
+                href="mailto:hello@nextlevelbarbershop.com.au"
+                className="block w-fit transition-colors duration-300 hover:text-[#c0c0c0] active:text-[#c0c0c0]"
               >
-                hello@hammoudibarber.com
+                hello@nextlevelbarbershop.com.au
               </a>
 
             </div>
@@ -129,7 +129,10 @@ const Footer = () => {
             </div>
 
 
-            <button
+            <a
+              href="https://www.fresha.com/lvp/next-level-barber-shop-william-street-perth-KzBqYq"
+              target="_blank"
+              rel="noreferrer"
               className="
                 group
                 relative
@@ -173,7 +176,7 @@ const Footer = () => {
                 Book Appointment
               </span>
 
-            </button>
+            </a>
 
           </div>
 
@@ -184,20 +187,20 @@ const Footer = () => {
         <div className="flex flex-col justify-between gap-6 pt-8 text-xs text-neutral-600 md:flex-row">
 
           <p>
-            © {new Date().getFullYear()} Hammoudi Barber Shop
+            © {new Date().getFullYear()} Next Level Barbershop
           </p>
 
           <div className="flex gap-8">
 
             <a
-              href="https://www.instagram.com/hammoudi_barber_shop/"
+              href="https://www.instagram.com/next_level_barbershop_perth/"
               className="transition-colors duration-300 hover:text-white active:text-white"
             >
               Instagram
             </a>
 
             <a
-              href="https://www.facebook.com/p/Hammoudi-barber-shop-100063867472962"
+              href="https://www.facebook.com/photo.php?fbid=1161330244023513&set=pb.100063796740322.-2207520000&type=3"
               className="transition-colors duration-300 hover:text-white active:text-white"
             >
               Facebook

@@ -10,7 +10,7 @@ const Privacy = () => {
             <a href="/" className="mb-20 inline-flex items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-neutral-500 transition-colors duration-300 hover:text-black active:text-black" ><span className="text-lg leading-none">←</span> Back to Website</a>
 
           <p className="mb-8 text-xs font-medium uppercase tracking-[0.3em] text-neutral-500">
-            Hammoudi Barber Shop
+            Next Level Barbershop
           </p>
 
           <h1 className="max-w-[900px] text-6xl font-light leading-[0.9] tracking-[-0.05em] md:text-8xl">
@@ -39,7 +39,7 @@ const Privacy = () => {
             title="Introduction"
           >
             <p>
-              Hammoudi Barber Shop respects your privacy and is committed to
+              Next Level Barbershop respects your privacy and is committed to
               protecting any personal information you provide when using our
               website or contacting us.
             </p>
@@ -197,18 +197,18 @@ const Privacy = () => {
           >
             <p>
               If you have questions about this Privacy Policy or how we
-              handle your information, please contact Hammoudi Barber Shop.
+                handle your information, please contact Next Level Barbershop.
             </p>
 
             <div className="mt-8 space-y-2 text-sm">
               <p>
                 <span className="text-neutral-400">Email:</span>{" "}
-                hello@hammoudibarber.com
+                hello@nextlevelbarbershop.com.au
               </p>
 
               <p>
                 <span className="text-neutral-400">Phone:</span>{" "}
-                +61 425 780 603
+                +61 415 300 889
               </p>
 
               <p>
@@ -223,7 +223,8 @@ const Privacy = () => {
           <div className="mt-20 border-t border-neutral-200 pt-8 text-xs leading-6 text-neutral-400">
             This Privacy Policy is provided as general website content and
             should be reviewed and adapted to reflect the actual data
-            practices and legal requirements applicable to Hammoudi Barber
+            practices and legal requirements applicable to Next Level
+            Barbershop
             Shop.
           </div>
 

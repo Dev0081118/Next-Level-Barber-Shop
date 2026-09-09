@@ -12,7 +12,7 @@ const NavBar = () => {
 
           <img
             src={logo}
-            alt="Hammoudi Barber Shop"
+            alt="Next Level Barbershop logo"
             className="h-14 w-auto object-contain md:h-16"
           />
 
@@ -22,7 +22,7 @@ const NavBar = () => {
             </p>
 
             <h1 className="mt-1 font-gt-super text-lg font-medium tracking-tight md:text-xl">
-              HAMMOUDI
+              NEXT LEVEL
             </h1>
           </div>
 
@@ -54,7 +54,9 @@ const NavBar = () => {
 
 
           <a
-            href="#packages"
+            href="https://www.fresha.com/lvp/next-level-barber-shop-william-street-perth-KzBqYq"
+            target="_blank"
+            rel="noreferrer"
             className="
               hidden
               font-helvetica
@@ -76,7 +78,7 @@ const NavBar = () => {
 
           {/* PHONE */}
           <a
-            href="tel:0416917772"
+            href="tel:+61415300889"
             className="
               hidden
               font-helvetica
@@ -91,13 +93,15 @@ const NavBar = () => {
               lg:block
             "
           >
-            04 1691 7772
+            0415 300 889
           </a>
 
 
           {/* BOOK BUTTON */}
           <a
-            href="#packages"
+            href="https://www.fresha.com/lvp/next-level-barber-shop-william-street-perth-KzBqYq"
+            target="_blank"
+            rel="noreferrer"
             className="
               group
               relative

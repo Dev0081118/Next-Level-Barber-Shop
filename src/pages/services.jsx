@@ -70,7 +70,7 @@ const Services = () => {
       {/* INTRO */}
       <div className="mx-auto flex min-h-[550px] w-[90%] max-w-[1400px] flex-col justify-center">
 
-        <p className="mb-8 text-sm font-medium uppercase tracking-[0.3em] text-[#c96b3c]">
+        <p className="mb-8 text-sm font-medium uppercase tracking-[0.3em] text-[#c0c0c0]">
           Our Services
         </p>
 
@@ -120,8 +120,11 @@ const Services = () => {
         {/* SERVICE LIST */}
         <div>
           {services.map((service) => (
-            <div
+            <a
               key={service.number}
+              href="https://www.fresha.com/lvp/next-level-barber-shop-william-street-perth-KzBqYq"
+              target="_blank"
+              rel="noreferrer"
               className="
                 group
                 grid
@@ -139,7 +142,7 @@ const Services = () => {
 
               {/* NUMBER */}
               <div className="col-span-2 self-start">
-                <span className="text-sm text-neutral-600 transition-colors duration-500 group-hover:text-[#c96b3c] group-active:text-[#c96b3c]">
+                  <span className="text-sm text-neutral-600 transition-colors duration-500 group-hover:text-[#c0c0c0] group-active:text-[#c0c0c0]">
                   {service.number}
                 </span>
               </div>
@@ -185,7 +188,7 @@ const Services = () => {
                       text-xs
                       uppercase
                       tracking-[0.15em]
-                      text-[#c96b3c]
+                      text-[#c0c0c0]
                       transition-transform
                       duration-500
                       group-hover:translate-x-0
@@ -198,7 +201,7 @@ const Services = () => {
 
               </div>
 
-            </div>
+            </a>
           ))}
         </div>
 
@@ -221,7 +224,10 @@ const Services = () => {
         </div>
 
 
-        <button
+        <a
+          href="https://www.fresha.com/lvp/next-level-barber-shop-william-street-perth-KzBqYq"
+          target="_blank"
+          rel="noreferrer"
           className="
             group
             relative
@@ -255,7 +261,7 @@ const Services = () => {
           <span className="relative z-10 transition-colors duration-500 group-hover:text-black group-active:text-black">
             Book Appointment
           </span>
-        </button>
+        </a>
 
       </div>
 

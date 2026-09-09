@@ -1,34 +1,5 @@
-// import React from 'react'
-// import heroImage from '../assets/hero2.png'
-
-// const Hero = () => {
-//   return (
-//     <div
-//       id="home"
-//       className="relative h-screen bg-cover bg-center"
-//       style={{ backgroundImage: `url(${heroImage})` }}
-//     >
-//       {/* Dark overlay */}
-//       {/* <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/70"></div> */}
-//       <div className="absolute inset-0 bg-black/40"></div>
-
-//       {/* Content */}
-//       <div className="relative top-1/2 -translate-y-1/2 text-center">
-//         <h1 className="font-gt-super text-7xl font-bold text-white">
-//           HAMMOUDI BARBER SHOP
-//         </h1>
-
-//         <p className="mt-8 font-helvetica text-white font-bold text-4xl ">
-//           HIGHEST QUALITY CUTS & SHAVES
-//         </p>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Hero
 import React from "react";
-import heroImage from "../assets/hero2.png";
+import heroImage from "../assets/hero.png";
 
 const Hero = () => {
   return (
@@ -42,7 +13,7 @@ const Hero = () => {
       }}
     >
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/45" />
+      <div className="absolute inset-0 bg-black/55" />
 
       {/* Subtle bottom gradient */}
       <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent" />
@@ -65,31 +36,33 @@ const Hero = () => {
             <span className="h-px w-12 bg-white/60" />
 
             <p className="font-helvetica text-xs font-medium uppercase tracking-[0.3em] text-white/80">
-              Premium Grooming
+              Perth / William Street
             </p>
 
           </div>
 
 
           <h1 className="max-w-[1200px] font-gt-super text-6xl font-medium leading-[0.85] tracking-[-0.04em] text-white sm:text-7xl md:text-8xl lg:text-[10rem]">
-            HAMMOUDI
+            NEXT LEVEL
             <br />
-            <span className="ml-[8vw]">BARBER SHOP</span>
+            <span className="ml-[8vw]">BARBERSHOP</span>
           </h1>
 
 
           <div className="mt-10 flex flex-col justify-between gap-8 md:flex-row md:items-end">
 
             <p className="max-w-[500px] font-helvetica text-sm leading-6 text-white/70 md:text-base">
-              The art of traditional barbering,
+              Precision cuts, sharp fades,
               <br className="hidden md:block" />
-              refined for the modern gentleman.
+              and a proper chair experience.
             </p>
 
 
             {/* BOOK BUTTON */}
             <a
-              href="#packages"
+              href="https://www.fresha.com/lvp/next-level-barber-shop-william-street-perth-KzBqYq"
+              target="_blank"
+              rel="noreferrer"
               className="
                 group
                 relative

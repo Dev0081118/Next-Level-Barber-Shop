@@ -31,7 +31,7 @@ const ImgeCardLeft = () => {
         
         <div className="w-full md:w-[70%] md:max-w-none">
           <p className="mb-5 text-sm font-semibold uppercase tracking-wide">
-            Hammoudi Barber Shop
+            Next Level Barbershop
           </p>
 
           <h1 className="text-4xl leading-tight md:text-5xl">
@@ -45,9 +45,13 @@ const ImgeCardLeft = () => {
             Discover an experience designed around you.
           </p>
 
-          <button
+          <a
+            href="https://www.fresha.com/lvp/next-level-barber-shop-william-street-perth-KzBqYq"
+            target="_blank"
+            rel="noreferrer"
             className="
                 relative
+                inline-block
                 mt-8
                 w-full
                 overflow-hidden
@@ -77,7 +81,7 @@ const ImgeCardLeft = () => {
   <span className="relative z-10 transition-colors duration-300">
     Book an appointment
   </span>
-</button>
+</a>
           
         </div>
           

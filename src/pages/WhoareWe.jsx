@@ -196,7 +196,7 @@ const WhoareWe = () => {
       {/* =========================
           WHO WE ARE
       ========================= */}
-      <section className="bg-[#0e291b] px-6 py-28 text-white md:px-12 md:py-36 lg:px-20">
+      <section className="bg-[#1a1a1a] px-6 py-28 text-white md:px-12 md:py-36 lg:px-20">
 
         <div className="mx-auto max-w-[1400px]">
 
@@ -242,9 +242,9 @@ const WhoareWe = () => {
             <div className="md:col-span-3">
 
               <p className="font-helvetica text-xs uppercase tracking-[0.25em] text-white/30">
-                Hammoudi
+                Next Level
                 <br />
-                Barber Shop
+                Barbershop
               </p>
 
               <p className="mt-8 font-helvetica text-xs leading-5 text-white/40">
@@ -260,15 +260,15 @@ const WhoareWe = () => {
             <div className="md:col-span-8 md:col-start-5">
 
               <p className="font-helvetica text-2xl font-light leading-[1.4] tracking-[-0.02em] md:text-3xl">
-                Nestled in central Perth, our shop offers far more than
-                standard trims, delivering a refined grooming experience.
+                Built for Perth. Next Level is a modern barbershop for clean
+                cuts, confident fades and proper conversation.
               </p>
 
 
               <p className="mt-10 max-w-[850px] font-helvetica text-lg font-light leading-8 text-white/60">
-                We blend classic techniques, exceptional attention to
-                detail, and top-tier products for men focused on elevating
-                their personal style.
+                We blend classic barbering technique with a sharp, current
+                point of view, delivering an experience that feels as good
+                as the finish looks.
               </p>
 
 
@@ -283,7 +283,7 @@ const WhoareWe = () => {
               <div className="mt-16 border-t border-white/10 pt-8">
 
                 <p className="font-gt-super text-3xl font-light leading-tight md:text-4xl">
-                  Welcome to Hammoudi Barber.
+                  Welcome to Next Level Barbershop.
                 </p>
 
                 <p className="mt-2 font-helvetica text-sm uppercase tracking-[0.2em] text-white/40">

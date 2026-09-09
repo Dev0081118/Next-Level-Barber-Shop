@@ -35,6 +35,8 @@ const packages = [
   },
 ];
 
+const freshaUrl = "https://www.fresha.com/lvp/next-level-barber-shop-william-street-perth-KzBqYq";
+
 const Packages = () => {
   return (
     <section id="packages" className="min-h-screen bg-white px-6 py-32 text-black md:px-12 lg:px-20">
@@ -191,7 +193,10 @@ const Packages = () => {
               </div>
 
                 <div className="mt-auto">
-                <button
+                <a
+                  href={freshaUrl}
+                  target="_blank"
+                  rel="noreferrer"
                     className="
                     group/button
                     relative
@@ -234,7 +239,7 @@ const Packages = () => {
                     >
                     Book {pkg.name} Package
                     </span>
-                </button>
+                </a>
                 </div>
             </div>
 

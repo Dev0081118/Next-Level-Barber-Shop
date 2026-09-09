@@ -3,32 +3,32 @@ import React from "react";
 const gallery = [
   {
     id: "01",
-    image: "/gallery/gallery-1.jpg",
+    image: "https://scontent.famd21-1.fna.fbcdn.net/v/t1.6435-9/32737760_1161330197356851_7705410528637616128_n.jpg?stp=dst-jpg_tt6&cstp=mx640x960&ctp=s640x960&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=WIyFjAF5fMcQ7kNvwE9ijIA&_nc_oc=Adq_tfp8ViP02wYsmLBrGJc1cfoPoT-uEq7nQOfuiTLslNtLksdhAPZ5TwcE2Za8tCSm9m4u-LMIcF9X8A4PgMwz&_nc_zt=23&_nc_ht=scontent.famd21-1.fna&_nc_gid=jBVo3vqVhZrCjyY1pTxEZg&_nc_ss=7b2a8&oh=00_AQKxIXOr5OwtLaOX8wuWmwPSTqUZg5E0QrXyhfP2Z_tJpw&oe=6AC8A8D9",
     title: "The Craft",
   },
   {
     id: "02",
-    image: "/gallery/gallery-2.jpg",
-    title: "Inside Hammoudi",
+    image: "https://scontent.famd21-2.fna.fbcdn.net/v/t51.82787-15/574029850_18517736830067893_6812504223946027173_n.jpg?stp=dst-jpegr_tt6&cstp=mx1440x1918&ctp=s1440x1918&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Xx8GgwG-vnYQ7kNvwFJmpFz&_nc_oc=AdrMrjWbeqKXTflzwa3mamiBWy-VG-Y4KY0bqHZgmHSI1VbVHSsebc2g-ofMfz1ws7LmMaXZK7nGSLN2YK3D06Su&_nc_zt=23&se=-1&_nc_ht=scontent.famd21-2.fna&_nc_gid=Rr5lYsyPzSPYVW3ehSjuNg&_nc_ss=7b2a8&oh=00_AQJTlMozW-GWDjNlNXtzf4IyZdyRPabYhLyLY1r0y_UMuw&oe=6AA7137A",
+    title: "Inside Next Level",
   },
   {
     id: "03",
-    image: "/gallery/gallery-3.jpg",
+    image: "https://scontent.famd21-2.fna.fbcdn.net/v/t39.30808-6/497646781_1263287665807780_8942998066644112633_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx946x2048&ctp=s946x2048&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=vRbJ8J2cPrgQ7kNvwG8uz1p&_nc_oc=AdolTQFDK_o1nwlcbfJzbviJxg3McQoBCeElJkSpjnlEqwJryQMkgP3btRU1Q7bb1zZsUuQ2PnTVylCpiMYF1en8&_nc_zt=23&_nc_ht=scontent.famd21-2.fna&_nc_gid=VKvChjdfsAUTZCsEseH6pA&_nc_ss=7b2a8&oh=00_AQJTekEM5xcf8IrTLj9jomnON4l6o8KOFcAvE_7PEZc4SQ&oe=6AA72233",
     title: "The Details",
   },
   {
     id: "04",
-    image: "/gallery/gallery-4.jpg",
+    image: "https://scontent.famd21-2.fna.fbcdn.net/v/t51.82787-15/588238274_18521394226067893_522931156072755661_n.jpg?stp=dst-jpg_tt6&cstp=mx1179x1572&ctp=s1179x1572&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1ZBedlkEgs8Q7kNvwF7bYoD&_nc_oc=Adp58Qi0d30f-Q_Y49NBuzwGACc7exHL866vp-VEo9CQPTHbLUdD76BQaaxevL2uLKcx3s1n8tVFGkvEAvYl7JSu&_nc_zt=23&_nc_ht=scontent.famd21-2.fna&_nc_gid=7earFe0U9Xe0hDMpJEKshA&_nc_ss=7b2a8&oh=00_AQLAsP1-M705okvif2kaqbe8lTl7ALXglM_jpCK-AdoxVA&oe=6AA6FDB9",
     title: "Sharp & Clean",
   },
   {
     id: "05",
-    image: "/gallery/gallery-5.jpg",
+    image: "https://scontent.famd21-1.fna.fbcdn.net/v/t1.6435-9/32697992_1161330247356846_8886881411005415424_n.jpg?stp=dst-jpg_tt6&cstp=mx960x598&ctp=s960x598&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_RC-JwhR_mgQ7kNvwHjPKnt&_nc_oc=AdoX5Q99JNiDRbaJVllTH9ynHG2qrAkyVJ219aq-MOih7J3V4MdSlKnyTBSPkKo-IazS1Ub7wWT5Ybxz-rmoBZkG&_nc_zt=23&_nc_ht=scontent.famd21-1.fna&_nc_gid=MBxdl5HeBgrgOvwj-iQbHw&_nc_ss=7b2a8&oh=00_AQIggEVLtuh2UUkCcaKNRohUNGy3XHgS1MkbwrHoufgLrQ&oe=6AC8C7D5",
     title: "The Experience",
   },
   {
     id: "06",
-    image: "/gallery/gallery-6.jpg",
+    image: "https://scontent.famd21-2.fna.fbcdn.net/v/t1.6435-9/170349878_2044466709043191_305730072244995955_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=CJWH3gbB0SoQ7kNvwGIGNwJ&_nc_oc=AdpyBGgyE9wdzHe2FxTMc644DaNuE1b8bk-VneHiuzJEIMbbjBjHthl42_Xb3ZjB0d5H3nSwkZl9HEuKV0ucZaPr&_nc_zt=23&_nc_ht=scontent.famd21-2.fna&_nc_gid=G-YnrAJ7OVNrwVaiQq4Dvw&_nc_ss=7b2a8&oh=00_AQKHOyVayzmDJ45ivlZB-zLIiMLtQbHX7L4b3xMSD5LLXQ&oe=6AC8A570",
     title: "Behind The Chair",
   },
 ];
@@ -50,7 +50,7 @@ const PhotoGallery = () => {
             A look inside
             <br />
             <span className="text-neutral-400">
-              Hammoudi.
+              Next Level.
             </span>
           </h2>
 
@@ -119,13 +119,13 @@ const PhotoGallery = () => {
           </p>
 
           <h3 className="mt-3 text-3xl font-light tracking-[-0.03em]">
-            More from Hammoudi.
+            More from Next Level.
           </h3>
         </div>
 
 
         <a
-          href="https://www.instagram.com/hammoudi_barber_shop/"
+          href="https://www.instagram.com/next_level_barbershop_perth/"
           className="
             group
             relative

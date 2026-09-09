@@ -22,9 +22,13 @@ const ImageCardRight = () => {
             Premium grooming, timeless style and a relaxing atmosphere. From precision cuts to traditional shaves, every service is crafted with attention to detail and tailored to you.
           </p>
 
-          <button
+          <a
+            href="https://www.fresha.com/lvp/next-level-barber-shop-william-street-perth-KzBqYq"
+            target="_blank"
+            rel="noreferrer"
             className="
                 relative
+                inline-block
                 mt-8
                 w-full
                 overflow-hidden
@@ -54,7 +58,7 @@ const ImageCardRight = () => {
   <span className="relative z-10 transition-colors duration-300">
     Book an appointment
   </span>
-</button>
+</a>
           
         </div>
           

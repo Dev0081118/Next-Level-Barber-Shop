@@ -2,7 +2,6 @@ import React from "react";
 import teamImage1 from "../assets/Team/emp1.png";
 import teamImage2 from "../assets/Team/emp2.png";
 import teamImage3 from "../assets/Team/emp3.png";
-import teamImage4 from "../assets/Team/emp4.png";
 import teamImage5 from "../assets/Team/emp5.png";
 const team = [
   {
@@ -31,7 +30,7 @@ const team = [
     name: "Ryan Wilson",
     role: "Senior Stylist",
     image:
-      teamImage4,
+      teamImage3,
   },
 ];
 
@@ -142,11 +141,11 @@ const MeetTheTeam = () => {
                     text-neutral-400
                     transition-all
                     duration-500
-                    group-hover:border-[#c96b3c]
-                    group-hover:bg-[#c96b3c]
+                    group-hover:border-[#c0c0c0]
+                    group-hover:bg-[#c0c0c0]
                     group-hover:text-white
-                    group-active:border-[#c96b3c]
-                    group-active:bg-[#c96b3c]
+                    group-active:border-[#c0c0c0]
+                    group-active:bg-[#c0c0c0]
                     group-active:text-white
                   "
                 >

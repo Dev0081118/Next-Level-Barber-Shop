@@ -67,7 +67,7 @@ const Review = () => {
                 4.6
               </p>
 
-              <div className="mt-2 flex gap-1 text-[#c96b3c]">
+              <div className="mt-2 flex gap-1 text-[#c0c0c0]">
                 ★ ★ ★ ★ ★
               </div>
             </div>
@@ -125,7 +125,7 @@ const Review = () => {
                   0{index + 1}
                 </span>
 
-                <span className="text-[#c96b3c]">
+                <span className="text-[#c0c0c0]">
                   ★★★★★
                 </span>
 
@@ -186,7 +186,7 @@ const Review = () => {
 
           {/* GOOGLE BUTTON */}
           <a
-            href="https://www.google.com/search?q=Hammoudi+Barber+Shop+Perth"
+            href="https://share.google/EpFtcxI55rnpOGp38"
             target="_blank"
             rel="noopener noreferrer"
             className="
